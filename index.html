@@ -10,7 +10,9 @@
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="#top" aria-label="Merlin Jeyakumar home">MJ</a>
+    <a class="brand" href="#top" aria-label="Merlin Jeyakumar home">
+      <span>MJ</span>
+    </a>
     <nav class="nav" aria-label="Primary navigation">
       <a href="#work">Work</a>
       <a href="#projects">Projects</a>
@@ -22,33 +24,64 @@
   <main id="top">
     <section class="hero">
       <div class="hero-copy">
-        <p class="eyebrow">Senior Android Engineer</p>
-        <h1>Secure, scalable Android apps for banking, Web3, media, IoT, and operational workflows.</h1>
+        <p class="eyebrow">Senior Android Engineer · Abu Dhabi</p>
+        <h1>Android products that survive real users, real releases, and real security constraints.</h1>
         <p class="hero-text">
-          I build Kotlin and Java Android applications that hold up in production: secure banking flows,
-          Web3 wallet journeys, OTT media features, inventory scanning, IoT controls, and client-facing
-          enterprise mobile systems.
+          I build Kotlin and Java mobile systems for banking, fintech, Web3, OTT, IoT, inventory,
+          marketplace, and service-industry products. My work sits close to the production edge:
+          secure flows, API integration, debugging, release validation, and clean architecture.
         </p>
+        <div class="proof-strip" aria-label="Profile highlights">
+          <div>
+            <strong>9</strong>
+            <span>years Android</span>
+          </div>
+          <div>
+            <strong>100K+</strong>
+            <span>Pampers users</span>
+          </div>
+          <div>
+            <strong>35%</strong>
+            <span>faster feature integration</span>
+          </div>
+        </div>
         <div class="actions">
           <a class="button primary" href="resume/Merlin_Jeyakumar_Resume.pdf">Download Resume</a>
           <a class="button secondary" href="mailto:s.merlinjeyakumar@gmail.com">Email Me</a>
         </div>
       </div>
       <div class="hero-visual" aria-label="Profile image and career snapshot">
-        <img src="https://github.com/merlinJeyakumar.png" alt="Merlin Jeyakumar S">
-        <div class="snapshot">
-          <strong>9 years</strong>
-          <span>Android delivery across banking, fintech, Web3, OTT, IoT, and marketplace products.</span>
+        <div class="device-panel">
+          <div class="device-top">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <img src="https://github.com/merlinJeyakumar.png" alt="Merlin Jeyakumar S">
+          <div class="device-copy">
+            <strong>Merlin Jeyakumar S</strong>
+            <span>Kotlin · Java · Android · Web3 · Secure Mobile</span>
+          </div>
+        </div>
+        <div class="snapshot-grid">
+          <div>
+            <span>Current</span>
+            <strong>ADIB Mobile Banking</strong>
+          </div>
+          <div>
+            <span>Known for</span>
+            <strong>Secure delivery + fast debugging</strong>
+          </div>
         </div>
       </div>
     </section>
 
     <section class="section intro">
       <p>
-        My strongest work sits where mobile engineering needs both product speed and production discipline:
-        Kotlin, Java, Clean Architecture, MVVM/MVI, CI/CD, regression testing, release validation,
-        secure storage, Android KeyStore, API integration, and hands-on debugging with product,
-        backend, design, QA, and client teams.
+        I work best inside mobile teams that need more than screen implementation. I can reason through
+        architecture, API behavior, release risk, user flows, and production debugging while staying hands-on
+        with Kotlin, Java, Clean Architecture, MVVM/MVI, CI/CD, regression testing, secure storage,
+        Android KeyStore, and backend integration.
       </p>
     </section>
 
@@ -60,23 +93,31 @@
       <div class="timeline">
         <article>
           <span>2024 - Present</span>
-          <h3>Synechron Technologies LLC - ADIB Mobile Banking</h3>
-          <p>Secure Android banking workflows, DCR alignment, eSIM purchase/install integrations, Android KeyStore, OAuth, SSL pinning, Bazel with Gradle, release stability, and direct client collaboration.</p>
+          <div>
+            <h3>Synechron Technologies LLC - ADIB Mobile Banking</h3>
+            <p>Secure Android banking workflows, DCR alignment, eSIM purchase/install integrations, Android KeyStore, OAuth, SSL pinning, Bazel with Gradle, release stability, and direct client collaboration.</p>
+          </div>
         </article>
         <article>
           <span>2022 - 2024</span>
-          <h3>Robosoft Technologies - ETV Win OTT</h3>
-          <p>Refactored legacy OTT modules into modular MVVM architecture, reducing feature integration time by approximately 35% across 10+ reusable components.</p>
+          <div>
+            <h3>Robosoft Technologies - ETV Win OTT</h3>
+            <p>Refactored legacy OTT modules into modular MVVM architecture, reducing feature integration time by approximately 35% across 10+ reusable components.</p>
+          </div>
         </article>
         <article>
           <span>2022 - 2024</span>
-          <h3>Digikraft.io - Web3 Mobile Products</h3>
-          <p>Ethereum wallet workflows, crypto ticketing, NFT marketplace features, IPFS/Pinata uploads, blockchain-linked accounts, and secure transaction journeys.</p>
+          <div>
+            <h3>Digikraft.io - Web3 Mobile Products</h3>
+            <p>Ethereum wallet workflows, crypto ticketing, NFT marketplace features, IPFS/Pinata uploads, blockchain-linked accounts, and secure transaction journeys.</p>
+          </div>
         </article>
         <article>
           <span>2020 - 2022</span>
-          <h3>OptiSol Business Solutions - Pampers, LitPic, Citibank IN</h3>
-          <p>Kotlin/MVVM, GraphQL, ML Kit onboarding, Kakao/Espresso testing, React Native bridge work, secure banking, AppDome, SSL/AES, CI/CD, and regression testing.</p>
+          <div>
+            <h3>OptiSol Business Solutions - Pampers, LitPic, Citibank IN</h3>
+            <p>Kotlin/MVVM, GraphQL, ML Kit onboarding, Kakao/Espresso testing, React Native bridge work, secure banking, AppDome, SSL/AES, CI/CD, and regression testing.</p>
+          </div>
         </article>
       </div>
     </section>
@@ -88,18 +129,22 @@
       </div>
       <div class="project-grid">
         <article class="project-card">
+          <span class="card-kicker">Device SDK</span>
           <h3>Inventory Scanning App</h3>
           <p>Zebra Scanner SDK barcode capture, SQLite stock storage, REST API product lookup, and dashboard-style Scan/Stocks workflows.</p>
         </article>
         <article class="project-card">
+          <span class="card-kicker">Native Bridge</span>
           <h3>LitPic SDK and React Native Bridge</h3>
           <p>Native Android SDK work for camera/video features, Java/Kotlin modules, JS-to-native communication, debugging, and release support.</p>
         </article>
         <article class="project-card">
+          <span class="card-kicker">IoT</span>
           <h3>Dhisplash IoT Remote</h3>
           <p>AWS IoT SDK, TCP/IP and UDP local discovery, Gson parsing, Firebase Performance, and ESP32 weather station mobile control.</p>
         </article>
         <article class="project-card">
+          <span class="card-kicker">Open Source</span>
           <h3>Open Source Android Foundations</h3>
           <p>Reusable MVVM architecture, Android FTP utilities, and Google authentication helpers for Android API 18-35.</p>
         </article>
@@ -143,6 +188,7 @@
       <div>
         <p class="eyebrow">Contact</p>
         <h2>Open to senior Android and mobile engineering roles.</h2>
+        <p class="contact-note">Best fit: Android roles where product, security, integrations, and release quality all matter.</p>
       </div>
       <div class="contact-links">
         <a href="mailto:s.merlinjeyakumar@gmail.com">s.merlinjeyakumar@gmail.com</a>
