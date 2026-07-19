@@ -582,12 +582,13 @@ h3 {
 
 .contact-meta {
   display: flex;
+  flex-wrap: wrap;
   gap: 12px;
   margin-top: 12px;
 }
 
 .contact-meta div {
-  flex: 1 1 0;
+  flex: 1 1 180px;
   padding: 14px;
   border: 1px solid rgba(144, 144, 151, 0.22);
   border-radius: 6px;
@@ -630,6 +631,35 @@ h3 {
   color: var(--secondary);
   border-color: var(--secondary);
   box-shadow: inset 0 0 18px rgba(123, 208, 255, 0.08);
+}
+
+
+.site-footer {
+  width: min(1280px, calc(100% - 40px));
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px 18px;
+  margin: -32px auto 0;
+  padding: 24px 0 40px;
+  border-top: 1px solid rgba(144, 144, 151, 0.22);
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.site-footer span:first-child {
+  color: var(--primary);
+  font-weight: 800;
+}
+
+.site-footer a {
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 900px) {

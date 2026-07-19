@@ -1,4 +1,4 @@
-# Merlin Jeyakumar S - GitHub Pages Profile
+# Merlin Jeyakumar Ebinezar - GitHub Pages Profile
 
 Static GitHub Pages site for `merlinJeyakumar.github.io`.
 
