@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 360" width="560" height="360" role="img" aria-labelledby="title desc">
+  <title id="title">GuideMePa mobile and backend architecture</title>
+  <desc id="desc">Android and iOS share a Kotlin Multiplatform core. A Kotlin Spring Boot backend connects camera images and chat questions to configured AI providers.</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#7bd0ff" stroke-width="1.5"/></marker></defs>
+  <g fill="none" stroke="#45464d"><path d="M16 64h528M16 168h528M16 272h528" stroke-dasharray="2 8"/></g>
+  <g font-family="Inter,Arial,sans-serif" font-size="16" text-anchor="middle" fill="#d3e4fe">
+    <rect x="64" y="20" width="176" height="56" rx="6" fill="#102034" stroke="#45464d"/><text x="152" y="54">Android</text>
+    <rect x="320" y="20" width="176" height="56" rx="6" fill="#102034" stroke="#45464d"/><text x="408" y="54">iOS</text>
+    <path d="M152 76v32h128m128-32v32H280v24" fill="none" stroke="#7bd0ff" marker-end="url(#arrow)"/>
+    <rect x="128" y="136" width="304" height="64" rx="6" fill="#102034" stroke="#7bd0ff"/><text x="280" y="163">Kotlin Multiplatform</text><text x="280" y="185" fill="#a3acba" font-size="13">Shared camera and chat logic</text>
+    <path d="M280 200v32" fill="none" stroke="#7bd0ff" marker-end="url(#arrow)"/>
+    <rect x="128" y="236" width="304" height="56" rx="6" fill="#102034" stroke="#45464d"/><text x="280" y="270">Kotlin + Spring Boot</text>
+    <path d="M280 292v32" fill="none" stroke="#a4d64c" marker-end="url(#arrow)"/>
+    <text x="280" y="348" fill="#a4d64c" font-size="14">Configured AI providers</text>
+  </g>
+</svg>

@@ -3,361 +3,162 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Merlin Jeyakumar Ebinezar is a Senior Android Engineer, available as an immediate joiner for Kotlin, Java, Android, hybrid mobile, secure banking, Web3, IoT, and production mobile systems.">
+  <meta name="description" content="Merlin Jeyakumar Ebinezar, Mobile Engineer. I develop Android-based products across mobile, connected devices, and shared code.">
   <meta name="author" content="Merlin Jeyakumar Ebinezar">
   <meta property="og:type" content="profile">
-  <meta property="og:title" content="Merlin Jeyakumar Ebinezar | Senior Android Engineer">
-  <meta property="og:description" content="Senior Android Engineer. Immediate joiner focused on Kotlin, Java, Android, hybrid mobile, secure integrations, Web3, IoT, and production release quality.">
+  <meta property="og:title" content="Merlin Jeyakumar Ebinezar | Mobile Engineer">
+  <meta property="og:description" content="Merlin Jeyakumar Ebinezar, Mobile Engineer. I develop Android-based products across mobile, connected devices, and shared code.">
   <meta property="og:url" content="https://www.jeyk.dev/">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Merlin Jeyakumar Ebinezar | Senior Android Engineer">
-  <meta name="twitter:description" content="Senior Android Engineer. Immediate joiner focused on Kotlin, Java, Android, hybrid mobile, secure integrations, Web3, IoT, and production release quality.">
+  <meta name="twitter:title" content="Merlin Jeyakumar Ebinezar | Mobile Engineer">
+  <meta name="twitter:description" content="Merlin Jeyakumar Ebinezar, Mobile Engineer. I develop Android-based products across mobile, connected devices, and shared code.">
   <link rel="canonical" href="https://www.jeyk.dev/">
-  <title>Merlin Jeyakumar Ebinezar | Senior Android Engineer</title>
+  <title>Merlin Jeyakumar Ebinezar | Mobile Engineer</title>
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Person",
       "name": "Merlin Jeyakumar Ebinezar",
-      "jobTitle": "Senior Android Engineer",
+      "jobTitle": "Mobile Engineer",
       "email": "mailto:mj.jeyk@gmail.com",
       "url": "https://www.jeyk.dev/",
-      "sameAs": [
-        "https://github.com/merlinJeyakumar"
-      ]
+      "sameAs": ["https://github.com/merlinJeyakumar"]
     }
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <script src="site.js" defer></script>
 </head>
 <body>
+  <a class="skip-link" href="#top">Skip to content</a>
   <header class="topbar">
-    <a class="wordmark" href="#top">Merlin Jeyakumar Ebinezar</a>
-    <nav aria-label="Primary navigation">
-      <a href="#work">Work</a>
-      <a href="#systems">Systems</a>
-      <a href="#skills">Skills</a>
-      <a href="#education">Education</a>
-      <a href="#contact">Contact</a>
-    </nav>
-    <a class="nav-action" href="mailto:mj.jeyk@gmail.com">Connect with me</a>
+    <div class="container topbar-inner">
+      <a class="wordmark" href="#top" aria-label="Merlin Jeyakumar Ebinezar, home">Merlin Jeyakumar Ebinezar</a>
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <a href="#work">Work</a><a href="#systems">Systems</a><a href="#skills">Skills</a><a href="#education">Education</a><a href="#contact">Contact</a>
+      </nav>
+      <a class="nav-action" href="mailto:mj.jeyk@gmail.com">Connect with me</a>
+      <details class="mobile-menu">
+        <summary>Menu</summary>
+        <nav aria-label="Mobile navigation">
+          <a href="#systems">Systems</a><a href="#work">Work</a><a href="#skills">Skills</a><a href="#education">Education</a><a href="#contact">Contact</a>
+        </nav>
+      </details>
+    </div>
   </header>
-
-  <main id="top">
-    <section class="hero">
+  <main id="top" class="container">
+    <section class="hero" aria-labelledby="hero-title">
       <div class="hero-copy">
-        <p class="label">Senior Android Engineer</p>
-        <h1>Engineering Android products at scale.</h1>
-        <p class="lead">
-          Kotlin, Java, Android, and hybrid mobile systems for secure banking, fintech, Web3, OTT,
-          IoT, marketplace, and operational workflows. Focused on clean architecture,
-          modular delivery, AI-assisted coding workflows, performance, and release stability.
-        </p>
-        <div class="hero-actions">
-          <a class="button primary" href="#systems">View Projects</a>
-        </div>
+        <h1 id="hero-title">Mobile Engineer</h1>
+        <p class="lead" data-copy="hero">I develop Android-based products across mobile, connected devices, and shared code.</p>
+        <div class="hero-actions"><a class="button primary" href="#systems">View Projects</a><a class="button quiet" href="#contact">Contact</a></div>
       </div>
-
-      <aside class="metrics" aria-label="Career metrics">
-        <article>
-          <span>Experience</span>
-          <strong>9+ Years</strong>
-          <small>Kotlin - Java - Android - Hybrid</small>
-        </article>
-        <article>
-          <span>User Impact</span>
-          <strong>100K+</strong>
-          <small>Active users</small>
-        </article>
-        <article>
-          <span>AI Workflow</span>
-          <strong>Agentic Coding</strong>
-          <small>Android Cli - Codex - Claude - Gemini - MCP</small>
-        </article>
-      </aside>
+      <figure class="system-figure">
+        <picture><source media="(max-width: 600px)" srcset="assets/mobile-system-map-mobile.svg" width="320" height="276"><img src="assets/mobile-system-map.svg" width="560" height="360" alt="Android and iOS share a Kotlin Multiplatform core, connected through a Kotlin Spring Boot backend to AI providers." fetchpriority="high"></picture>
+        <figcaption>GuideMePa: mobile and backend integration</figcaption>
+      </figure>
     </section>
 
-    <section class="section timeline-section" id="work">
-      <div class="section-title">
-        <p class="label">Professional Trajectory</p>
-        <h2>Production Android roles across secure banking, OTT, consumer, IoT, marketplace, and communication products.</h2>
+    <section class="section" id="systems" aria-labelledby="selected-title">
+      <div class="section-heading"><h2 id="selected-title">Selected work</h2><p>Banking, shared code, privacy, and connected hardware</p></div>
+      <div class="stories">
+        <article class="story" id="adib">
+          <div class="story-heading"><h3>ADIB Mobile Banking</h3><span class="project-kind">Secure banking</span></div>
+          <div class="story-body">
+            <p data-copy="adib">I brought payment and KYC functionality to ADIB, migrated existing screens to Compose, and resolved production issues in the mobile banking application.</p>
+            <ul class="tags" aria-label="ADIB technologies"><li>Kotlin</li><li>Java</li><li>Jetpack Compose</li><li>Mobile security</li></ul>
+            <details class="story-details"><summary>Inside the work</summary><div class="detail-body"><p data-copy="adibDetail">My responsibilities encompassed authentication, identity verification, crash analysis, memory investigation, device-specific debugging, code reviews and modularisation decisions, fixing build issues, and coordinating releases with product, QA, security, client teams.</p><p class="recognition">ADIB Alpha Squad Top Squad 2024/2025<br>Shield Award - Best Achiever</p></div></details>
+          </div>
+        </article>
+        <article class="story" id="guidemepa">
+          <div class="story-heading"><h3>GuideMePa</h3><span class="project-kind">Cross-platform guidance</span></div>
+          <div class="story-body">
+            <p data-copy="guide">I created a Kotlin backend that connects images and questions to AI services, along with GuideMePa, which provides Android and iOS users with access to camera and chat guidance.</p>
+            <ul class="tags" aria-label="GuideMePa technologies"><li>Kotlin Multiplatform</li><li>Android + iOS</li><li>Spring Boot</li><li>Coroutines</li></ul>
+            <details class="story-details"><summary>Inside the work</summary><div class="detail-body"><p data-copy="guideDetail">Kotlin Multiplatform facilitates the sharing of business logic through camera and chat flows. A Spring Boot service uses coroutines to link the app with pre-configured AI providers such as OpenAI, Grok, Gemini, and Ollama.</p></div></details>
+          </div>
+        </article>
+        <article class="story" id="future-notes">
+          <div class="story-heading"><h3>Future Notes</h3><span class="project-kind">Offline by design</span></div>
+          <div class="story-body">
+            <p data-copy="notes">I created Future Notes, a Flutter app that allows users to access private notes and media without an account, cloud storage, or network. It uses AES-256 encryption to protect locally stored content.</p>
+            <ul class="tags" aria-label="Future Notes technologies"><li>Flutter</li><li>Dart</li><li>AES-256</li><li>Android + iOS</li></ul>
+            <details class="story-details"><summary>Inside the work</summary><div class="detail-body"><p data-copy="notesDetail">The device retains its content without the need for cloud storage or sign-in. The work involved Android and iOS builds, native integration, local data handling, and a user-friendly interface for organizing personal content.</p><a href="https://github.com/merlinJeyakumar/future-notes">View source</a></div></details>
+          </div>
+        </article>
+        <article class="story" id="aeroyield">
+          <div class="story-heading"><h3>AeroYield</h3><span class="project-kind">Connected agriculture</span></div>
+          <div class="story-body">
+            <p data-copy="aero">The integration of field sensors and aerial inspections into a single mobile workflow is made possible by the shared Kotlin core, which connects soil readings, drone telemetry, thermal imagery, and irrigation controls across Android and iOS.</p>
+            <ul class="tags" aria-label="AeroYield technologies"><li>Kotlin Multiplatform</li><li>IoT</li><li>UAV telemetry</li><li>Android + iOS</li></ul>
+            <details class="story-details"><summary>Inside the work</summary><div class="detail-body"><p data-copy="aeroDetail">I combined drone telemetry and field-sensor data into a shared mobile core that can be used for aerial inspections and irrigation controls.</p></div></details>
+          </div>
+        </article>
       </div>
+    </section>
 
+    <section class="section" id="more-work" aria-labelledby="more-title">
+      <div class="section-heading"><h2 id="more-title">More projects, same care</h2><p>Media, SDKs, digital assets, and developer tools</p></div>
+      <div class="project-index">
+        <details class="project-item"><summary><span class="project-name">ETV Win</span><span class="project-domain">Streaming</span></summary><div class="detail-body"><p data-copy="etv">Converted legacy streaming modules into a reusable architecture, integrated live and on-demand playback, and validated releases through regression testing and post-release fixes.</p><p>Legacy refactoring reduced feature integration time by approximately 35%. Akamai, ExoPlayer, HLS/DRM, Firebase Analytics, and release validation.</p></div></details>
+        <details class="project-item"><summary><span class="project-name">LitPic SDK</span><span class="project-domain">Native bridge</span></summary><div class="detail-body"><p data-copy="litpic">Integrated Java and Kotlin modules to enable media processing, bridge debugging, and release support for React Native, as well as camera and video capabilities.</p><p>Camera2, OpenGL, FFmpeg, MediaMuxer, ExoPlayer, and WebRTC.</p></div></details>
+        <details class="project-item"><summary><span class="project-name">Pampers Fit Finder</span><span class="project-domain">Camera + consumer</span></summary><div class="detail-body"><p data-copy="pampers">I used GraphQL functionality, integrated camera scanning and image-processing flows with ML Kit, and provided support for unit, user interface (UI), and regression tests.</p><p>Product reach: 100,000+ active users. Kotlin, ML Kit, GraphQL, Kakao, Espresso, and Mockito.</p></div></details>
+        <details class="project-item"><summary><span class="project-name">Citibank India</span><span class="project-domain">Secure transactions</span></summary><div class="detail-body"><p data-copy="citibank">Focused on mobile hardening, transaction validation, encryption, biometrics, certificate pinning, and secure local storage.</p><p>AppDome Shield, SSL pinning, AES encryption, biometrics, and secure storage.</p></div></details>
+        <details class="project-item"><summary><span class="project-name">Blix</span><span class="project-domain">NFT marketplace</span></summary><div class="detail-body"><p data-copy="blix">I designed image-to-NFT creation and wallet-connected marketplace capabilities on Polygon, along with application monitoring and production releases.</p><p>Camera2, ML Kit, MVVM, Firebase, in-app purchases, and Polygon.</p></div></details>
+        <details class="project-item"><summary><span class="project-name">Web3 Solidity proof of concept</span><span class="project-domain">Wallets</span></summary><div class="detail-body"><p data-copy="web3">Built an Android proof of concept for wallet creation, connection, transfers, and Polygon NFT minting, verifying the communication between the app, wallet, network, &amp; smart contract.</p><p>Android, Kotlin, Solidity, MetaMask, Polygon, and Infura.</p><a href="https://github.com/merlinJeyakumar/NFT-Web3-Android">View source</a></div></details>
+        <details class="project-item"><summary><span class="project-name">One Tap FileShare</span><span class="project-domain">Local networking</span></summary><div class="detail-body"><p data-copy="fileshare">Customized local-network file transfers for Android phones and TV devices, with connection setup, transfer-state feedback, and navigation for both screen types.</p><p>FTP server/client, Android, Android TV, file handling, and local networking.</p></div></details>
+        <details class="project-item"><summary><span class="project-name">ADB Controller</span><span class="project-domain">Developer tools</span></summary><div class="detail-body"><p data-copy="adb">Built a desktop ADB controller with integrated QR pairing, network auto-discovery, and connection monitoring for Windows, macOS, and Android operating systems.</p><p>Kotlin, Compose, ADB, QR pairing, network discovery, and desktop packaging.</p><a href="https://github.com/merlinJeyakumar/Desktop-Adb-compose-kotlin">View source</a></div></details>
+        <details class="project-item"><summary><span class="project-name">Valicit</span><span class="project-domain">Crypto ticketing</span></summary><div class="detail-body"><p data-copy="valicit">I incorporated Ethereum wallets into the process of buying event tickets. The mobile flow handles transaction confirmation, status tracking, and backend ownership verification.</p><p>Ethereum, wallet integration, REST APIs, and transaction verification.</p></div></details>
+        <details class="project-item"><summary><span class="project-name">Inventory Scanner</span><span class="project-domain">Device SDK</span></summary><div class="detail-body"><p data-copy="inventory">Integrated Zebra barcode scanning with a local stock list. SQLite stored the scanned codes, and REST APIs provided product details when an item was selected.</p></div></details>
+        <details class="project-item"><summary><span class="project-name">Dhisplash IoT Remote</span><span class="project-domain">Connected devices</span></summary><div class="detail-body"><p data-copy="dhisplash">Integrated mobile controls to smart devices through AWS IoT integration, local discovery, and remote commands, with a focus on connection handling and background reliability.</p><p>AWS IoT SDK, ESP32, BLE, TCP/IP and UDP discovery, Gson, and Firebase Performance.</p></div></details>
+        <details class="project-item"><summary><span class="project-name">Howzit AI Messenger</span><span class="project-domain">Communication</span></summary><div class="detail-body"><p data-copy="howzit">I created an Android messenger that offers real-time chat, voice and video calls, local storage, and secure media management.</p><p>WebRTC, XMPP, WebSocket, Room, and offline synchronisation.</p></div></details>
+        <details class="project-item"><summary><span class="project-name">CrowdAI SaaS</span><span class="project-domain">Voice workflows</span></summary><div class="detail-body"><p data-copy="crowdai">Developed and maintained voice-campaign communication workflows and backend integration, with an emphasis on asynchronous processing and mobile reliability.</p><p>SIP/VoIP, backend services, and Android background processing.</p></div></details>
+        <details class="project-item"><summary><span class="project-name">Nuvo Taxi</span><span class="project-domain">Mobility</span></summary><div class="detail-body"><p data-copy="nuvo">Created workflows for rider and driver booking, live tracking, fare calculation, and payments, using GraphQL APIs and real-time updates.</p><p>Google Pay, Paystack, Razorpay, Firebase, and location services.</p></div></details>
+        <details class="project-item"><summary><span class="project-name">Buy2Rental</span><span class="project-domain">Marketplace</span></summary><div class="detail-body"><p data-copy="buy2rental">Built rental marketplace features and enhanced image-loading performance by caching and resource handling.</p><p>Image loading improved by approximately 40% using Glide.</p></div></details>
+        <details class="project-item"><summary><span class="project-name">Anan and eLegal Forum</span><span class="project-domain">Social + legal</span></summary><div class="detail-body"><p data-copy="anan">Built features for social and legal forums, with a focus on data handling in offline mode and improved synchronisation for applications backed by Firebase.</p><p>Data sync latency reduced by approximately 30%.</p></div></details>
+        <details class="project-item"><summary><span class="project-name">OSS Libraries</span><span class="project-domain">Reusable Android</span></summary><div class="detail-body"><p data-copy="oss">Built reusable Android architecture modules, file-transfer utilities, and authentication helpers to simplify integration across projects.</p></div></details>
+      </div>
+    </section>
+
+    <section class="section" id="work" aria-labelledby="career-title">
+      <div class="section-heading"><h2 id="career-title">Professional trajectory</h2><p>Nine years across product teams and client delivery</p></div>
       <div class="timeline">
-        <article>
-          <div class="marker"></div>
-          <div class="timeline-card">
-            <div class="timeline-head">
-              <div>
-                <h3>Senior Android Developer</h3>
-                <p>Synechron Technologies LLC - ADIB Mobile Banking</p>
-              </div>
-              <span>Sep 2024 - Jun 2026</span>
-            </div>
-            <p>Projects: ADIB Mobile Banking and eSIM purchase/install workflows. Kotlin/Java delivery across secure banking, DCR alignment, carrier entitlement support, Android KeyStore, OAuth, SSL pinning, Bazel with Gradle, CI/CD stability, production release support, and AI-assisted coding for refactoring and code quality.</p>
-            <div class="chips">
-              <span>Kotlin</span><span>Java</span><span>Security</span><span>Banking</span><span>CI/CD</span><span>AI-assisted Coding</span>
-            </div>
-          </div>
-        </article>
-
-        <article>
-          <div class="marker"></div>
-          <div class="timeline-card">
-            <div class="timeline-head">
-              <div>
-                <h3>Lead Android Developer</h3>
-                <p>Robosoft Technologies - ETV Win OTT</p>
-              </div>
-              <span>2022 - 2024</span>
-            </div>
-            <p>Project: ETV Win OTT Streaming Platform. Refactored legacy Android modules into modular MVVM architecture, reduced feature integration time by approximately 35%, delivered onboarding, subscriptions, encrypted playback, Firebase Analytics, Crashlytics, regression testing, and release validation.</p>
-            <div class="chips">
-              <span>Kotlin</span><span>MVVM</span><span>Modularization</span><span>OTT</span><span>Crashlytics</span><span>Testing</span>
-            </div>
-          </div>
-        </article>
-
-        <article>
-          <div class="marker"></div>
-          <div class="timeline-card">
-            <div class="timeline-head">
-              <div>
-                <h3>Android Developer</h3>
-                <p>OptiSol Business Solutions - Pampers, LitPic, Citibank IN</p>
-              </div>
-              <span>2020 - 2022</span>
-            </div>
-            <p>Projects: Pampers Diaper Fit Finder, LitPic Video, and Citibank IN. Delivered Kotlin/MVVM and GraphQL user flows, ML Kit onboarding for 100K+ users, Kakao/Espresso testing support, hybrid React Native bridge and Java/Kotlin native modules, FFmpeg/camera features, secure banking with AppDome, SSL/AES, biometrics, CI/CD, and regression testing.</p>
-            <div class="chips">
-              <span>Kotlin</span><span>Java</span><span>GraphQL</span><span>Hybrid</span><span>React Native Bridge</span><span>Security</span><span>Kakao</span>
-            </div>
-          </div>
-        </article>
-
-        <article>
-          <div class="marker"></div>
-          <div class="timeline-card">
-            <div class="timeline-head">
-              <div>
-                <h3>Android Developer</h3>
-                <p>MithrAI Inc - Howzit AI Messenger, CrowdAI SaaS, Dhisplash IoT Remote</p>
-              </div>
-              <span>2018 - 2020</span>
-            </div>
-            <p>Projects: Howzit AI Messenger, CrowdAI SaaS, and Dhisplash IoT Remote. Built secure real-time chat with WebRTC/XMPP and RoomDB, SIP/VoIP voice-campaign workflows, secure media handling, AWS IoT SDK integration, TCP/IP and UDP discovery, Gson parsing, and Firebase Performance tracking.</p>
-            <div class="chips">
-              <span>WebRTC</span><span>XMPP</span><span>Room</span><span>SIP/VoIP</span><span>AWS IoT</span>
-            </div>
-          </div>
-        </article>
-
-        <article>
-          <div class="marker"></div>
-          <div class="timeline-card">
-            <div class="timeline-head">
-              <div>
-                <h3>Android Developer</h3>
-                <p>SangVish Technology - Buy2Rental and Nuvo Taxi</p>
-              </div>
-              <span>2018</span>
-            </div>
-            <p>Projects: Buy2Rental and Nuvo Taxi. Delivered short-term rental marketplace features, optimized image loading speed by 40% using Glide, built rider/driver taxi apps with live tracking, fare calculation, GraphQL APIs, Google Pay, Paystack, Razorpay, and Firebase updates.</p>
-            <div class="chips">
-              <span>GraphQL</span><span>Firebase</span><span>Glide</span><span>Payments</span><span>Maps</span>
-            </div>
-          </div>
-        </article>
-
-        <article>
-          <div class="marker"></div>
-          <div class="timeline-card">
-            <div class="timeline-head">
-              <div>
-                <h3>Android Developer</h3>
-                <p>Cogzidel Technologies - Anan Social Media and eLegal Forum</p>
-              </div>
-              <span>2017 - 2018</span>
-            </div>
-            <p>Projects: Anan social media and eLegal Forum. Built Firebase Realtime Database-backed Android applications with offline-first storage workflows and reduced data sync latency by approximately 30%.</p>
-            <div class="chips">
-              <span>Firebase</span><span>Offline-first</span><span>Social</span><span>Forums</span>
-            </div>
-          </div>
-        </article>
+        <article class="role"><div class="role-date">Sep 2024 - Jun 2026</div><div class="role-main"><div class="employer-line"><h3>Synechron Technologies LLC</h3><span class="workplace">Dubai, UAE</span></div><p class="role-title">Senior Mobile Developer</p><details><summary>Work and delivery</summary><div class="detail-body"><p data-copy="synechron">Provided banking capabilities, migrated screens to Compose, investigated production issues, and aided developers in reviewing and making release decisions.</p><p>Project: Abu Dhabi Islamic Bank</p></div></details></div></article>
+        <article class="role"><div class="role-date">Nov 2022 - Jan 2024</div><div class="role-main"><div class="employer-line"><h3>Robosoft Technologies</h3><span class="workplace">Bangalore, India</span></div><p class="role-title">Lead Mobile Developer</p><details><summary>Work and delivery</summary><div class="detail-body"><p data-copy="robosoft">Managed Android delivery across streaming and NFT workflows, overhauled legacy modules, and coordinated release readiness with QA and product teams.</p><p>Projects: ETV Win OTT Streaming Platform and Blix NFT Marketplace</p></div></details></div></article>
+        <article class="role"><div class="role-date">Sep 2020 - Sep 2022</div><div class="role-main"><div class="employer-line"><h3>OptiSol Business Solutions</h3><span class="workplace">Chennai, India</span></div><p class="role-title">Android Developer</p><details><summary>Work and delivery</summary><div class="detail-body"><p data-copy="optisol">During my tenure at OptiSol, I worked on mobile SDKs, camera and media features, native bridge creation, and application security measures.</p></div></details></div></article>
+        <article class="role"><div class="role-date">Nov 2018 - Jul 2020</div><div class="role-main"><div class="employer-line"><h3>MithrAI Inc</h3><span class="workplace">Madurai, India</span></div><p class="role-title">Android Developer</p><details><summary>Work and delivery</summary><div class="detail-body"><p data-copy="mithrai">Real-time media, local storage, and resilient background communication were integrated into Android products through communication and connected-device applications.</p></div></details></div></article>
+        <article class="role"><div class="role-date">May 2018 - Oct 2018</div><div class="role-main"><div class="employer-line"><h3>SangVish Technology</h3><span class="workplace">Madurai, India</span></div><p class="role-title">Android Developer</p><details><summary>Work and delivery</summary><div class="detail-body"><p data-copy="sangvish">Delivered both marketplace and ride-booking capabilities, including live tracking, payment integration, offline sync, and improved image loading.</p></div></details></div></article>
+        <article class="role"><div class="role-date">Jul 2017 - Mar 2018</div><div class="role-main"><div class="employer-line"><h3>Cogzidel Technologies</h3><span class="workplace">Madurai, India</span></div><p class="role-title">Android Developer</p><details><summary>Work and delivery</summary><div class="detail-body"><p data-copy="cogzidel">Built social and legal forums powered by Firebase, facilitating releases, offline data handling, and improved synchronisation.</p></div></details></div></article>
       </div>
     </section>
 
-    <section class="section" id="systems">
-      <div class="section-title">
-        <p class="label">Featured Systems</p>
-        <h2>Highlightable mobile systems, SDK work, integrations, and delivery patterns.</h2>
-      </div>
-
-      <div class="systems">
-        <article class="system-card">
-          <span class="system-icon">01</span>
-          <span class="label">Secure Banking</span>
-          <h3>ADIB and Citibank IN</h3>
-          <p>OAuth, SSL pinning, AES, biometric authentication, Android KeyStore patterns, AppDome, secure storage, release stability, and production issue triage.</p>
-        </article>
-
-        <article class="system-card">
-          <span class="system-icon">02</span>
-          <span class="label">OTT</span>
-          <h3>ETV Win</h3>
-          <p>Modular MVVM refactor, onboarding, subscriptions, encrypted playback, Firebase Analytics, Remote Config, Performance Monitoring, Crashlytics, and regression-tested releases.</p>
-        </article>
-
-        <article class="system-card">
-          <span class="system-icon">03</span>
-          <span class="label">Web3</span>
-          <h3>Valicit and Blix</h3>
-          <p>Ethereum wallet import/connection, crypto transactions, NFT marketplace flows, IPFS/Pinata uploads, asset metadata, ownership visibility, and backend/blockchain APIs.</p>
-        </article>
-
-        <article class="system-card">
-          <span class="system-icon">04</span>
-          <span class="label">Device SDK</span>
-          <h3>Inventory Scanner</h3>
-          <p>Zebra Scanner SDK barcode capture, SQLite stock storage, REST API product lookup, and dashboard-style Scan/Stocks workflows.</p>
-        </article>
-
-        <article class="system-card">
-          <span class="system-icon">05</span>
-          <span class="label">Native Bridge</span>
-          <h3>LitPic SDK</h3>
-          <p>Native Android SDK and React Native bridge work for camera/video capabilities, Java/Kotlin modules, JS-to-native communication, debugging, and release support.</p>
-        </article>
-
-        <article class="system-card">
-          <span class="system-icon">06</span>
-          <span class="label">IoT</span>
-          <h3>Dhisplash IoT Remote</h3>
-          <p>AWS IoT SDK, TCP/IP and UDP local discovery, Gson parsing, Firebase Performance, and ESP32 weather station remote-control workflows.</p>
-        </article>
-
-        <article class="system-card">
-          <span class="system-icon">07</span>
-          <span class="label">Payments</span>
-          <h3>Nuvo Taxi</h3>
-          <p>Rider/driver taxi workflows with live tracking, fare calculation, GraphQL APIs, Google Pay, Paystack, Razorpay, Firebase-powered updates, and marketplace-style delivery.</p>
-        </article>
-
-        <article class="system-card">
-          <span class="system-icon">08</span>
-          <span class="label">Open Source</span>
-          <h3>OSS Libraries</h3>
-          <p>Reusable multi-module MVVM architecture, Android FTP utilities, and Google authentication helpers for Android API 18-35.</p>
-        </article>
+    <section class="section" id="skills" aria-labelledby="skills-title">
+      <div class="section-heading"><h2 id="skills-title">Engineering toolkit</h2></div>
+      <div class="toolkit" id="stack">
+        <details class="toolkit-row"><summary><span class="toolkit-name">Mobile platforms</span><span class="toolkit-terms">Kotlin, Java, Android SDK, Jetpack Compose, KMP, Flutter</span></summary><div class="detail-body"><p data-copy="platforms">I have hands-on experience with Kotlin Multiplatform, Flutter, React Native integration, and iOS builds. Native Android is my primary platform.</p><p>Dart, React Native bridge, Swift, SwiftUI, UIKit, Android Studio, and Xcode.</p></div></details>
+        <details class="toolkit-row"><summary><span class="toolkit-name">Architecture</span><span class="toolkit-terms">MVVM, MVI, Clean Architecture, Coroutines, Flow, modularisation</span></summary><div class="detail-body"><p data-copy="architecture">I refactor established codebases, break down reusable business logic, and guide implementation choices through code reviews and technical discussions.</p><p>Hilt/Dagger, Room, SQLite, shared business logic, Kotlin Spring Boot, and code refactoring.</p></div></details>
+        <details class="toolkit-row"><summary><span class="toolkit-name">Secure integrations</span><span class="toolkit-terms">REST, GraphQL, mobile security, real-time media, IoT</span></summary><div class="detail-body"><p data-copy="integrations">I integrate mobile experiences with banking services, real-time communication, AI providers, wallets, and connected hardware.</p><p>OAuth, SSL pinning, Android KeyStore, AES encryption, biometrics, AppDome, DexGuard, WebRTC, and Web3.</p></div></details>
+        <details class="toolkit-row"><summary><span class="toolkit-name">Production delivery</span><span class="toolkit-terms">Testing, profiling, CI/CD, release management, AI-assisted coding</span></summary><div class="detail-body"><p data-copy="delivery">Using AI-assisted tools with code review, I follow features through testing, profiling, release validation, production investigation, hotfixes, and rollback support.</p><p>JUnit, Mockito, Espresso, Kakao, regression testing, Gradle, Bazel, Fastlane, GitHub CI, Play Console, feature flags, and trunk-based development.</p></div></details>
       </div>
     </section>
 
-    <section class="section preferred-panel" id="skills">
-      <div>
-        <p class="label">Most Preferred Skills</p>
-        <h2>Focused skills I prefer to be matched on.</h2>
-      </div>
-      <div class="preferred-list">
-        <span>Kotlin</span>
-        <span>Java</span>
-        <span>Android SDK</span>
-        <span>Hybrid Mobile</span>
-        <span>React Native Bridge</span>
-        <span>Jetpack Compose</span>
-        <span>Clean Architecture</span>
-        <span>MVVM / MVI</span>
-        <span>Coroutines / Flow</span>
-        <span>Hilt / Dagger</span>
-        <span>Retrofit / REST</span>
-        <span>GraphQL</span>
-        <span>Room / SQLite</span>
-        <span>CI/CD</span>
-        <span>Regression Testing</span>
-        <span>Crashlytics</span>
-        <span>Android Security</span>
-        <span>AI-assisted Coding</span>
+    <section class="section" id="education" aria-labelledby="education-title">
+      <div class="section-heading"><h2 id="education-title">Education and continued learning</h2></div>
+      <div class="credentials">
+        <div class="degree"><h3>Bachelor of Computer Science</h3><p>Madurai Kamaraj University</p><small>2013 - 2016</small></div>
+        <div class="certifications"><h3>Certifications</h3><ul><li>Compose Advanced Training</li><li>Kotlin Multiplatform Bootcamp</li><li>Advanced Android Bootcamp</li><li>Kotlin Essential Training</li><li>MongoDB Java Developer</li><li>MongoDB Data Modelling</li><li>Professional AI Coder Training Program</li></ul><details><summary>Earlier learning</summary><div class="detail-body"><p>Google Cloud Training Online: Material Components for Flutter Basics, Dart Functions Framework, Getting Started with Flutter Development.</p><p>Great Learning: Flutter for Beginners.</p></div></details></div>
       </div>
     </section>
 
-    <section class="section stack-panel" id="stack">
-      <div>
-        <p class="label">Mobile Systems Stack</p>
-        <h2>Architecture, security, APIs, and delivery quality.</h2>
-      </div>
-      <div class="stack-list">
-        <div><span>01</span><p>Android and hybrid: Kotlin, Java, Android SDK, Jetpack Compose, XML Views, Material Design, React Native bridge, Java/Kotlin native modules, JS-to-native communication.</p></div>
-        <div><span>02</span><p>Architecture: Clean Architecture, MVVM, MVI, SOLID, feature modularization, multi-module apps, Gradle, Bazel, TOML catalogs.</p></div>
-        <div><span>03</span><p>Security: OAuth 2.0, SSL pinning, AES, AppDome, DexGuard, ProGuard, Android KeyStore, biometrics, secure storage.</p></div>
-        <div><span>04</span><p>Quality and AI-assisted coding: JUnit, Espresso, Kakao, Mockito, regression testing, release validation, Crashlytics, Firebase Performance, Play Console, Claude, ChatGPT, Gemini, and MCP-style workflows.</p></div>
-      </div>
-    </section>
-
-    <section class="section education-panel" id="education">
-      <div>
-        <p class="label">Education</p>
-        <h2>Computer Science foundation and continuous Android learning.</h2>
-      </div>
-      <div class="education-list">
-        <article>
-          <span>2013 - 2016</span>
-          <h3>BSc - Computer Science</h3>
-          <p>Madurai Kamaraj University</p>
-        </article>
-        <article>
-          <span>2025</span>
-          <h3>Advanced Android Bootcamp 2024</h3>
-          <p>Udemy - Jetpack, architecture, and modern Android development.</p>
-        </article>
-        <article>
-          <span>2024</span>
-          <h3>Flutter and Dart Foundations</h3>
-          <p>Google Cloud Training Online and Great Learning certifications covering Flutter basics, Dart Functions Framework, Material Components for Flutter, and Getting Started with Flutter Development.</p>
-        </article>
-        <article>
-          <span>2023</span>
-          <h3>MongoDB Java Certifications</h3>
-          <p>MongoDB Atlas, document model, data modeling, indexes, aggregation, CRUD operations in Java, and aggregation with Java.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section contact-panel" id="contact">
-      <div class="contact-copy">
-        <p class="label">Contact</p>
-        <h2>Open to Senior Android Engineer roles.</h2>
-        <p>Best fit: teams where product quality, secure integrations, Android architecture, hybrid mobile delivery, AI-assisted coding, performance, and release reliability matter.</p>
-      </div>
-      <div class="contact-card">
-        <a class="contact-email" href="mailto:mj.jeyk@gmail.com">
-          <span>Email</span>
-          <strong>mj.jeyk@gmail.com</strong>
-        </a>
-        <div class="contact-meta">
-          <div>
-            <span>Availability</span>
-            <strong>Immediate Joiner</strong>
-          </div>
-          <div>
-            <span>Role fit</span>
-            <strong>Senior Android Engineer</strong>
-          </div>
-        </div>
-        <div class="contact-links">
-          <a href="https://github.com/merlinJeyakumar">GitHub</a>
-          <a href="https://stackoverflow.com/users/10110990/merlin-jeyakumar">Stack Overflow</a>
-          <a href="https://www.jeyk.dev/">Portfolio</a>
-        </div>
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="contact-panel">
+        <div class="contact-copy"><h2 id="contact-title">Contact</h2></div>
+        <div class="contact-links"><a class="contact-email" href="mailto:mj.jeyk@gmail.com">mj.jeyk@gmail.com</a><div class="profile-links"><a href="https://github.com/merlinJeyakumar">GitHub</a><a href="https://stackoverflow.com/users/10110990/merlin-jeyakumar">Stack Overflow</a><a href="https://www.jeyk.dev/">Portfolio</a></div><p class="availability">Immediate Joiner</p></div>
       </div>
     </section>
   </main>
-  <footer class="site-footer">
-    <span>Merlin Jeyakumar Ebinezar</span>
-    <span>Senior Android Engineer</span>
-    <a href="mailto:mj.jeyk@gmail.com">mj.jeyk@gmail.com</a>
-    <a href="https://github.com/merlinJeyakumar">GitHub</a>
-  </footer>
+  <footer class="site-footer container"><span>Merlin Jeyakumar Ebinezar</span><span>Mobile Engineer</span><a href="mailto:mj.jeyk@gmail.com">mj.jeyk@gmail.com</a></footer>
 </body>
 </html>
