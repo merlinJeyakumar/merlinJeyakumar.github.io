@@ -2,11 +2,11 @@
 
 Static GitHub Pages site for `merlinJeyakumar.github.io`.
 
-Mobile Engineer portfolio with project stories, a supporting-project index,
+Mobile Systems Engineer portfolio with project stories, a supporting-project index,
 career history, and native HTML disclosures. No framework or build step is required.
 
-Employer locations appear in career entries. Personal location, phone details,
-LinkedIn, and downloadable resumes are intentionally excluded from the public page.
+Employer locations appear in career entries. The page includes verified GitHub and
+LinkedIn profile links, while phone details and downloadable resumes remain excluded.
 
 ## Local Preview
 
