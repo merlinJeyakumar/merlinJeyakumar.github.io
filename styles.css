@@ -55,9 +55,6 @@ small { font-size: 14px; }
 .button.primary:hover { background: var(--primary); border-color: var(--primary); }
 .button.quiet { border-color: var(--rule); color: var(--primary); }
 .button.quiet:hover { border-color: var(--secondary); color: var(--secondary); }
-.system-figure { flex: 1 1 480px; min-width: 0; max-width: 540px; }
-.system-figure img { display: block; width: 100%; height: auto; }
-.system-figure figcaption { margin-top: var(--space-md); color: var(--dim); font-size: 14px; max-width: 65ch; }
 .section { padding-block: var(--space-3xl) var(--space-4xl); }
 .hero + .section { padding-top: var(--space-lead-in); }
 .section + .section { padding-top: var(--space-section); }
@@ -135,7 +132,7 @@ summary:hover { color: var(--secondary); }
   .container { width: min(var(--container), calc(100% - 48px)); }
   .primary-nav, .nav-action { display: none; } .mobile-menu { display: block; }
   .hero { flex-direction: column; align-items: stretch; gap: var(--space-2xl); min-height: auto; padding-block: var(--space-3xl); }
-  .hero-copy, .system-figure { flex: auto; } .system-figure { width: 100%; max-width: 600px; }
+  .hero-copy { flex: auto; }
   .story { gap: var(--space-xl); } .story-heading { flex-basis: 28%; }
   .role { gap: var(--space-lg); } .role-date { flex-basis: 152px; }
   .employer-line { flex-direction: column; align-items: flex-start; gap: var(--space-xs); }
@@ -145,7 +142,7 @@ summary:hover { color: var(--secondary); }
   .topbar-inner { min-height: 80px; gap: var(--space-md); } .wordmark { max-width: 23ch; font-size: 14px; }
   h1 { font-size: 40px; } h2 { font-size: 28px; } h3 { font-size: 23px; }
   .lead, .story-body > p { font-size: 16px; }
-  .hero { padding-block: var(--space-2xl); gap: var(--space-xl); } .system-figure { max-width: 460px; }
+  .hero { padding-block: var(--space-2xl); gap: var(--space-xl); }
   .section { padding-block: var(--space-2xl) var(--space-3xl); } .section + .section { padding-top: var(--space-3xl); }
   .hero + .section { padding-top: var(--space-lg); }
   .section-heading { flex-direction: column; align-items: flex-start; gap: var(--space-md); margin-bottom: var(--space-xl); }
