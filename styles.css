@@ -34,6 +34,7 @@ small { font-size: 14px; }
 .container { width: min(var(--container), calc(100% - 64px)); margin-inline: auto; }
 .icon-sprite { position: absolute; width: 0; height: 0; overflow: hidden; pointer-events: none; }
 .link-icon { width: 1em; height: 1em; flex: 0 0 auto; fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.75; }
+.link-icon.brand-icon { fill: currentColor; stroke: none; }
 .skip-link { position: fixed; top: var(--space-md); left: var(--space-md); z-index: 500; padding: var(--space-sm) var(--space-md); background: var(--surface-high); color: var(--text); transform: translateY(-160%); }
 .skip-link:focus-visible { transform: none; }
 .topbar { position: sticky; top: 0; z-index: var(--z-sticky-nav); background: var(--glass); backdrop-filter: blur(14px); border-bottom: 1px solid var(--rule); }
