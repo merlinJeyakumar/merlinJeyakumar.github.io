@@ -1,15 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 276" width="320" height="276" role="img" aria-labelledby="title desc">
-  <title id="title">GuideMePa mobile and backend architecture</title>
-  <desc id="desc">Android and iOS share a Kotlin Multiplatform core connected to a Kotlin Spring Boot backend and configured AI providers.</desc>
+  <title id="title">GuideMePa mobile, native, and backend architecture</title>
+  <desc id="desc">GuideMePa connects Android and iOS camera and chat experiences through shared mobile logic, Kotlin Multiplatform where it fits, Kotlin Spring Boot services, and configured AI services.</desc>
   <defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#7bd0ff" stroke-width="1.5"/></marker></defs>
   <g font-family="Inter,Arial,sans-serif" font-size="18" text-anchor="middle" fill="#d3e4fe">
     <rect x="16" y="8" width="120" height="46" rx="6" fill="#102034" stroke="#45464d"/><text x="76" y="37">Android</text>
     <rect x="184" y="8" width="120" height="46" rx="6" fill="#102034" stroke="#45464d"/><text x="244" y="37">iOS</text>
-    <path d="M76 54v18h84m84-18v18h-84v16" fill="none" stroke="#7bd0ff" marker-end="url(#arrow)"/>
-    <rect x="16" y="92" width="288" height="62" rx="6" fill="#102034" stroke="#7bd0ff"/><text x="160" y="118">Kotlin Multiplatform</text><text x="160" y="141" fill="#a3acba" font-size="14">Shared camera and chat logic</text>
-    <path d="M160 154v24" fill="none" stroke="#7bd0ff" marker-end="url(#arrow)"/>
-    <rect x="16" y="182" width="288" height="46" rx="6" fill="#102034" stroke="#45464d"/><text x="160" y="211">Kotlin + Spring Boot</text>
-    <path d="M160 228v22" fill="none" stroke="#a4d64c" marker-end="url(#arrow)"/>
-    <text x="160" y="270" fill="#a4d64c" font-size="16">Configured AI providers</text>
+    <path d="M76 54v14h84m84-14v14h-84v12" fill="none" stroke="#7bd0ff" marker-end="url(#arrow)"/>
+    <rect x="16" y="80" width="288" height="54" rx="6" fill="#102034" stroke="#7bd0ff"/><text x="160" y="108">Mobile guidance</text><text x="160" y="128" fill="#a3acba" font-size="12">Camera + chat across Android and iOS</text>
+    <path d="M160 134v16" fill="none" stroke="#7bd0ff" marker-end="url(#arrow)"/>
+    <rect x="16" y="150" width="288" height="54" rx="6" fill="#102034" stroke="#45464d"/><text x="160" y="178">Shared mobile logic</text><text x="160" y="197" fill="#a3acba" font-size="11">Kotlin Multiplatform where it fits</text>
+    <path d="M160 204v16" fill="none" stroke="#7bd0ff" marker-end="url(#arrow)"/>
+    <rect x="16" y="220" width="288" height="38" rx="6" fill="#102034" stroke="#45464d"/><text x="160" y="245">Kotlin + Spring Boot</text>
+    <path d="M160 258v6" fill="none" stroke="#a4d64c" marker-end="url(#arrow)"/>
+    <text x="160" y="274" fill="#a4d64c" font-size="14">Configured AI services</text>
   </g>
 </svg>
