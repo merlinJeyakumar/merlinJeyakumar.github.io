@@ -32,25 +32,28 @@ p { max-width: 65ch; text-wrap: pretty; }
 ul { padding-left: var(--space-lg); }
 small { font-size: 14px; }
 .container { width: min(var(--container), calc(100% - 64px)); margin-inline: auto; }
+.icon-sprite { position: absolute; width: 0; height: 0; overflow: hidden; pointer-events: none; }
+.link-icon { width: 1em; height: 1em; flex: 0 0 auto; fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.75; }
 .skip-link { position: fixed; top: var(--space-md); left: var(--space-md); z-index: 500; padding: var(--space-sm) var(--space-md); background: var(--surface-high); color: var(--text); transform: translateY(-160%); }
 .skip-link:focus-visible { transform: none; }
 .topbar { position: sticky; top: 0; z-index: var(--z-sticky-nav); background: var(--glass); backdrop-filter: blur(14px); border-bottom: 1px solid var(--rule); }
 .topbar-inner { min-height: 88px; display: flex; align-items: center; justify-content: space-between; gap: var(--space-lg); }
-.wordmark { max-width: 29ch; color: var(--primary); font-family: var(--font-mono); font-size: 15px; line-height: 1.45; font-weight: 700; letter-spacing: -0.015em; text-decoration: none; }
+.wordmark { max-width: 29ch; display: inline-flex; align-items: center; gap: 7px; color: var(--primary); font-family: var(--font-mono); font-size: 15px; line-height: 1.45; font-weight: 700; letter-spacing: -0.015em; text-decoration: none; }
+.wordmark .link-icon { color: var(--secondary); }
 .primary-nav { display: flex; gap: var(--space-lg); align-items: center; }
 .primary-nav a, .nav-action { font-size: 14px; color: var(--muted); text-decoration: none; white-space: nowrap; }
-.primary-nav a { display: inline-flex; align-items: center; min-height: 44px; }
+.primary-nav a { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; }
 .primary-nav a:hover, .nav-action:hover { color: var(--secondary); }
-.nav-action { min-height: 44px; display: inline-flex; align-items: center; padding-inline: var(--space-md); border: 1px solid var(--rule); border-radius: 4px; }
+.nav-action { min-height: 44px; display: inline-flex; align-items: center; gap: 8px; padding-inline: var(--space-md); border: 1px solid var(--rule); border-radius: 4px; }
 .mobile-menu { display: none; position: relative; }
 .mobile-menu summary { min-height: 48px; display: flex; align-items: center; cursor: pointer; color: var(--secondary); font-family: var(--font-mono); font-size: 15px; font-weight: 700; letter-spacing: -0.01em; }
 .mobile-menu nav { position: absolute; right: 0; top: 100%; min-width: 200px; padding: var(--space-sm); background: var(--surface); border: 1px solid var(--rule); border-radius: var(--radius); }
-.mobile-menu nav a { display: flex; align-items: center; min-height: 48px; padding-inline: var(--space-sm); text-decoration: none; }
+.mobile-menu nav a { display: flex; align-items: center; gap: 8px; min-height: 48px; padding-inline: var(--space-sm); text-decoration: none; }
 .hero { display: flex; align-items: flex-end; gap: var(--space-3xl); padding-block: var(--space-3xl) var(--space-2xl); }
 .hero-copy { flex: 1 1 560px; min-width: 0; }
 .lead { margin-top: var(--space-lg); font-size: 20px; line-height: 1.6; color: var(--muted); max-width: 42ch; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: var(--space-md); margin-top: var(--space-xl); }
-.button { min-height: 48px; display: inline-flex; align-items: center; justify-content: center; padding-inline: var(--space-lg); border: 1px solid var(--secondary); border-radius: 4px; text-decoration: none; font-weight: 700; font-size: 14px; white-space: nowrap; }
+.button { min-height: 48px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding-inline: var(--space-lg); border: 1px solid var(--secondary); border-radius: 4px; text-decoration: none; font-weight: 700; font-size: 14px; white-space: nowrap; }
 .button.primary { color: var(--button-text); background: var(--secondary); }
 .button.primary:hover { background: var(--primary); border-color: var(--primary); }
 .button.quiet { border-color: var(--rule); color: var(--primary); }
@@ -80,7 +83,7 @@ summary::marker { color: var(--secondary); font-size: 12px; }
 summary:hover { color: var(--secondary); }
 .detail-body { padding-block: var(--space-md) var(--space-xs); color: var(--muted); }
 .detail-body p + p { margin-top: var(--space-md); }
-.detail-body a { display: inline-flex; align-items: center; min-height: 44px; margin-top: var(--space-sm); }
+.detail-body a { display: inline-flex; align-items: center; gap: 7px; min-height: 44px; margin-top: var(--space-sm); }
 .recognition { color: var(--tertiary); font-size: 14px; }
 .project-index { border-top: 1px solid var(--rule); }
 .project-item { border-bottom: 1px solid var(--rule); }
@@ -121,11 +124,11 @@ summary:hover { color: var(--secondary); }
 .contact-copy { flex: 1; }
 .contact-copy p { color: var(--muted); margin-top: var(--space-lg); }
 .contact-links { flex: 1; min-width: 0; }
-.contact-email { display: inline-block; min-width: 0; color: var(--secondary); font-size: clamp(0.85rem, 3.8vw, 1.05rem); font-weight: 700; letter-spacing: -0.02em; text-decoration: none; white-space: nowrap; overflow-wrap: normal; }
+.contact-email { display: inline-flex; align-items: center; gap: 8px; min-width: 0; color: var(--secondary); font-size: clamp(0.85rem, 3.8vw, 1.05rem); font-weight: 700; letter-spacing: -0.02em; text-decoration: none; white-space: nowrap; overflow-wrap: normal; }
 .profile-links { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-lg); margin-top: var(--space-lg); }
-.profile-links a { min-height: 44px; display: inline-flex; align-items: center; font-size: 16px; white-space: nowrap; }
+.profile-links a { min-height: 44px; display: inline-flex; align-items: center; gap: 7px; font-size: 16px; white-space: nowrap; }
 .site-footer { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: var(--space-md); padding-block: var(--space-xl) var(--space-2xl); color: var(--dim); font-size: 14px; }
-.site-footer a { white-space: nowrap; }
+.site-footer a { display: inline-flex; align-items: center; gap: 7px; white-space: nowrap; }
 @media (max-width: 1100px) { .primary-nav { gap: var(--space-md); } .nav-action { display: none; } }
 @media (max-width: 959px) {
   .container { width: min(var(--container), calc(100% - 48px)); }
