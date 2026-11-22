@@ -249,8 +249,8 @@ body { background: radial-gradient(circle at 86% -12%, rgba(123, 208, 255, 0.12)
 }
 
 @keyframes reveal-up {
-  from { opacity: 0.92; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
+  from { transform: translateY(10px); }
+  to { transform: translateY(0); }
 }
 @media (prefers-reduced-motion: no-preference) {
   [data-reveal].reveal-play { animation: reveal-up var(--motion-standard) var(--ease-out) both; animation-delay: var(--reveal-delay, 0ms); }
